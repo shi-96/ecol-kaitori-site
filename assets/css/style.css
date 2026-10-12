@@ -277,3 +277,12 @@ h2{font-size:clamp(26px,3.2vw,38px);line-height:1.4;font-weight:800;color:var(--
   .s-tel{color:var(--ink);border:1px solid #9aa8a0}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* 24h受付の注記 */
+.accept-note{margin:20px 0 0;padding:0 8px;display:flex;flex-wrap:wrap;align-items:baseline;justify-content:center;gap:4px 14px;text-align:center;font-size:13px;line-height:1.6;color:var(--mute)}
+.accept-note b{font-size:16px;font-weight:800;color:var(--green-dk)}
+.final .accept-note{margin:28px 0 0;opacity:1;color:rgba(255,255,255,.88)}
+.final .accept-note b{color:#fff}
+@media (max-width:760px){.accept-note{flex-direction:column;gap:2px;font-size:12.5px}.accept-note b{font-size:14px;white-space:nowrap}.accept-note>span{display:block}}
+
+.nb{white-space:nowrap}
